@@ -1,0 +1,12 @@
+.galeria__todos {
+    color: var(--detalhes-escuro);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: var(--open);
+}
+
+.invisivel {
+    display: none;
+}

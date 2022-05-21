@@ -1,0 +1,42 @@
+.main__logado {
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.main__logado .btn {
+    width: 95%;
+    margin: 20px auto;
+}
+
+@media screen and (min-width: 768px) {
+    .main__logado .btn {
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .main__logado {
+        flex-direction: row;
+        width: 70%;
+    }
+    
+    .main__logado .btn {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .main__logado {
+        width: 60%;
+    }
+    
+    .main__logado .btn {
+        width: 35%;
+    }
+}

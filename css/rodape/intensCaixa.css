@@ -1,0 +1,24 @@
+.rodape__itens__links ul {
+    list-style: none;
+    line-height: 2;
+}
+
+.rodape__itens__links ul li a {
+    text-decoration: none;
+    color: var(--detalhes-escuro);
+    font-family: var(--open);
+}
+
+.rodape__itens__links ul li a:hover {
+    text-shadow: 1px 1px 10px var(--detalhes);
+}
+
+@media screen and (min-width: 1200px) {
+    .rodape__logo__itens__caixa {
+        width: 40%;
+    }
+
+    .rodape__itens__links ul {
+        margin-top: 28px;
+    }
+}

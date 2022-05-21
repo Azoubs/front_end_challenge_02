@@ -1,0 +1,72 @@
+.rodape__itens__contato {
+    width: 100%;
+}
+
+.rodape__itens__contato h4 {
+    text-align: left;
+    font-family: var(--mont);
+    margin: 20px;
+}
+
+.rodape__itens__contato__formulario {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.rodape__itens__contato__formulario__input-container {
+    margin-bottom: 20px;
+	margin-top: 4px;
+	position: relative;
+	width: 100%;
+}
+
+.rodape__itens__contato__formulario__input-container .label {
+    color: var(--detalhes-escuro);
+	display: block;
+    font-family: var(--mont);
+	padding-left: 5px;
+	width: 45px;
+
+	position: absolute;
+	left: -3px;
+	top: 3px;
+    
+}
+
+.rodape__itens__contato__formulario__input-container input,
+.rodape__itens__contato__formulario textarea {
+    border: 1px solid var(--detalhes);
+	border-radius: 3px;
+	box-sizing: border-box;
+	font-family: var(--open);
+	padding: 10px;
+	padding-top: 25px;
+    width:100%;
+    color: var(--detalhes-escuro);
+}
+
+.rodape__itens__contato__formulario textarea {
+    padding: 10px;
+    padding-top: 25px;
+    height: 130px;
+    
+    border: 1px solid var(--detalhes);
+}
+
+.rodape__itens__contato__formulario input:focus,
+.rodape__itens__contato__formulario textarea:focus {
+    outline: none;
+    border: 1px solid var(--detalhes-escuro)
+}
+
+.rodape__formulario__botao {
+    width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+    .rodape__itens__contato {
+        width: 50%;
+    }
+}

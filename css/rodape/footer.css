@@ -1,0 +1,8 @@
+footer {
+    background-color: var(--branco);
+    line-height: 1.7;
+    padding: 20px;
+    text-align: center;
+    font-family: var(--open);
+    font-size: .91em;
+}

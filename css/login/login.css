@@ -1,0 +1,22 @@
+.login__main {
+    margin: 30px auto;
+    
+    font-family: var(--grot);
+    width: 90%;    
+}
+
+@media screen and (min-width: 768px) {
+    .login__main {
+        width: 80%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .login__main {
+        width: 70%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .login__main {
+        width: 40%;
+    }
+}

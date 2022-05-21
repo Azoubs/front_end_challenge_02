@@ -1,0 +1,8 @@
+.index__main__subtitulo__caixa {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--grot);
+    color: var(--detalhes-escuro);
+    margin: 35px 10px;
+}
+

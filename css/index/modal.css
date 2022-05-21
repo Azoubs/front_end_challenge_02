@@ -1,0 +1,71 @@
+.index__modal {
+    height: 90vh;
+    width: 90vw;
+    background-color: var(--claro-secundario);
+    position: fixed;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    font-family: var(--mont);
+    border: 2px solid var(--detalhes-escuro);
+    box-shadow: 1px 1px 50px black;
+    transition: all .5s ease-in-out;
+}
+
+.invisivel {
+    display: none;
+    
+}
+
+.index__modal__sair {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 10px;
+    border: 1px solid var(--detalhes-escuro);
+    color: var(--detalhes-escuro);
+    background-color: white;
+    font-size: 1em;
+    font-weight: bold;
+    width: 35px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.index__modal__sair:hover {
+    background-color: var(--branco);
+}
+
+.index__modal__produto {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.index__modal__produto__img {
+    width: 80%;
+    height: 450px;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 40px;
+}
+
+.index__modal__nome,
+.index__modal__preco,
+.index__modal__descricao {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    .index__modal__produto__img {
+        width: 500px;
+        height: 500px;
+    }
+}

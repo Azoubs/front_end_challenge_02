@@ -1,0 +1,54 @@
+.rodape {
+    background-color: var(--claro-primario);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo_2 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: var(--open);
+    font-size: 1.2em;
+}
+
+button.rodape__formulario__botao {
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    button.rodape__formulario__botao {
+        width: 40%;
+    }
+
+    .rodape__itens {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .rodape__logo__itens__caixa {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    button.rodape__formulario__botao {
+        width: 35%;
+    }
+
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .rodape__logo__itens__caixa {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .rodape__itens__contato {
+        width: 40%;
+    }
+}

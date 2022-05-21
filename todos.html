@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Hurricane&family=Montserrat:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+		rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="icon" href="icon.png">
+	<title>AluraTime</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header/header.css">
+	<link rel="stylesheet" href="css/header/nav.css">
+	<link rel="stylesheet" href="css/header/hero.css">
+	<link rel="stylesheet" href="css/rodape/rodape.css">
+	<link rel="stylesheet" href="css/rodape/intensCaixa.css">
+	<link rel="stylesheet" href="css/rodape/contato.css">
+	<link rel="stylesheet" href="css/rodape/footer.css">
+	<link rel="stylesheet" href="css/index/main.css">
+	<link rel="stylesheet" href="css/index/galeria.css">
+	<link rel="stylesheet" href="css/index/card.css">
+	<link rel="stylesheet" href="css/index/modal.css">
+	<link rel="stylesheet" href="css/todos/todos.css">
+	
+
+</head>
+
+<body>
+	
+	<header>
+		<nav class="header__navegacao container">
+			<h1 class="header__navegacao__logo"><a href="index.html"><i class="fas fa-stopwatch"></i> Alura<span class="logo">Time</a></span></h1>
+        <div class="header__navegacao__outros">
+          <a href="login.html"><button class="header__navegacao__botao btn">Login</button></a>
+          <i class="fas fa-search"></i>
+
+        </div>
+		</nav>
+		<div class="header__hero">
+			<div class="container">
+				<h2 class="header__hero__subtitulo">Promoções na Hora Certa</h2>
+          <h3 class="header__hero__h3">Lorem ipsum dolor sit</h3>
+          <button class="header__hero__botao btn">Ver Relógios</button>
+			</div>
+		</div>
+	</header>
+
+	<div class="index__modal container invisivel">
+		<button class="index__modal__sair">x</button>
+		<div class="index__modal__produto">
+			<!-- <img src="img/bolso/big/bpc_01.jpg" alt="" class="index__modal__produto__img">
+			<p class="index__modal__nome">Nome do produto</p>
+			<p class="index__modal__preco">Preço do produto</p>
+			<p class="index__modal__descricao">Descrição do produto</p> -->
+		</div>
+	</div>
+	
+	<main class="main__todos">
+        <div class="main__todos__galeria">
+
+        </div>
+    </main>
+
+	<div class="rodape">
+
+		<div class="rodape__itens container">
+			<div class="rodape__logo__itens__caixa">
+				<h1 class="header__navegacao__logo logo_2"><i class="fas fa-stopwatch"></i> Alura<span class="logo">Time</span></h1>
+				<div class="rodape__itens__links">
+					<ul>
+						<li><a href="#">Quem somos nós</a></li>
+						<li><a href="#">Política de privacidade</a></li>
+						<li><a href="#">Programa fidelidade</a></li>
+						<li><a href="#">Nossas lojas</a></li>
+						<li><a href="#">Quero ser franqueado</a></li>
+						<li><a href="#">Anuncie aqui</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="rodape__itens__contato">
+				<h4 class="rodape__itens__contato__subtitulo">Fale conosco</h4>
+				<form action="" class="rodape__itens__contato__formulario">
+					<div class="rodape__itens__contato__formulario__input-container">
+						<input type="text" name="nome" id="nome" />
+						<span class="label">Nome</span>
+					</div>
+
+					<div class="rodape__itens__contato__formulario__input-container">					
+						<textarea name="mensagem" id="mensagem"></textarea>
+						<span class="label">Mensagem</span>
+					</div>
+
+					<button class="rodape__formulario__botao btn">Enviar mensagem</button>
+				</form>
+			</div>
+
+		</div>
+	</div>
+	<footer>
+		<p>Desenvolvido por Moi</p>
+      <p>2022</p>
+	</footer>
+
+	<script src="js/todos/criaTodosProdutos.js"></script>
+	<script src="js/modal.js"></script>
+</body>
+
+</html>

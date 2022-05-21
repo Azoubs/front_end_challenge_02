@@ -1,0 +1,21 @@
+.header__hero {
+    background-image: url('../../img/hero_01.jpg');
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 15px;
+    font-family: var(--grot);
+    text-shadow: 1px 1px 3px black;
+}
+
+.header__hero__botao {
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}

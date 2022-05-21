@@ -1,0 +1,21 @@
+.index__main__galeria__card {
+    width: 100%;
+    font-size: .8em;
+    font-family: var(--mont);
+}
+
+.main__galeria__card_imagem {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.open_modal {
+    color: var(--detalhes);
+    text-decoration: underline;
+}
+
+.open_modal:hover {
+    color: var(--detalhes-escuro);
+}
